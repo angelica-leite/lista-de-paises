@@ -13,11 +13,6 @@ const GlobalStyle = createGlobalStyle`
         overflow-x: hidden;
     }
 
-    h1 {
-        font-family: "Poppins";
-        font-size: 1rem;
-        font-weight: 700;
-    };
 
     button {
         cursor: pointer;

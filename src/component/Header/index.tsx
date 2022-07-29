@@ -12,7 +12,7 @@ export const Header: React.FC = () => {
   return (
     <HeaderFilter>
       <div>
-        <p>Escolha a letra inicial do país desejado</p>
+        <h1>Escolha a letra inicial do país desejado</h1>
         <div>
           <ButtonGroup
             variant="text"

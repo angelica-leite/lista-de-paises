@@ -16,9 +16,7 @@ export interface Countries {
   emoji: string;
   capital: string;
   currency: string;
-  languages: {
-    name: string;
-  };
+  languages: [{ name: string }];
 }
 
 interface ListProviderData {
@@ -49,9 +47,7 @@ const ListProvider = ({ children }: ListProviderProps) => {
                 emoji,
                 capital,
                 currency,
-                languages {
-                  name
-                }
+                languages {name}
     }}
             `,
       }),
